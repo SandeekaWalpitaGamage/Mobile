@@ -13,7 +13,7 @@ const DisplayLogo = () => {
 
 const DisplayProfilePic= () => {
   return (
-    <Image style={styles.avata}
+    <Image style={styles.avatar}
       source={require('../images/Avata.png')
       }
 
@@ -201,7 +201,7 @@ const styles = StyleSheet.create({
     borderWidth:1,
     padding:4,
   },
-  avata: {
+  avatar: {
     width: 70,
     height: 70,
     marginTop :20,
