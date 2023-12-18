@@ -29,14 +29,9 @@ const DisplayLogo = () => {
 // Display profile picture.
   const DisplayProfilePic= () => {
     return (
-      <Image style={styles.avata}
-        source={require('../images/Avata.png')
-        }
-
-      />
+      <Image style={styles.avatar} source={require('../images/Avata.png')} />
     );
   };
-
 
 
   const AddEmpScreen = ({ route, navigation }) => {
@@ -210,15 +205,13 @@ const DisplayLogo = () => {
                 onChangeText={(value) => onChangeCountry(value)}
               />
             </View>
-        </View>
-        
+        </View>        
         
         <Button color='#595959' title="Add" onPress={clickHandle}></Button>
       </View>    
      
     );
   };
-
 
   const styles = StyleSheet.create({
     input: {
@@ -240,7 +233,7 @@ const DisplayLogo = () => {
       borderWidth:1,
       padding:2,
     },
-    avata: {
+    avatar: {
       width: 70,
       height: 70,
       //marginTop :20,
