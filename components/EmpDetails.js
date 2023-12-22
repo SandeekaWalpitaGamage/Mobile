@@ -118,7 +118,7 @@ function EmpDetails ({route, navigation}) {
           </View>
           <Button
               color='#595959'
-              title='Edit'
+              title='Edit Employee'
               onPress={() => UpdateEmp(employee.Id)}
           />
           </View>
